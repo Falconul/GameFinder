@@ -1,0 +1,135 @@
+.titleSwiper{
+  padding-top: 10%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  
+  color: white;
+}
+.section-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-section-2{
+  position: relative;
+  text-decoration: none;
+  display: inline-flex;
+  color: white;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+  width: 80%;
+  justify-content: flex-start;
+  padding: 30px;
+  margin-left: 20%;
+  margin-top: 7%;
+  flex-direction: column;
+}
+.swiper{
+  justify-content: flex-end;
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.swiper-slide{
+  width: 100%;
+  height:400px;
+}
+.gameSlider{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.gameSlider img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px !important;
+}
+.swiper-button-prev,
+.swiper-button-next{
+  position: absolute;
+  height:25px;
+  width: 25px;
+  border-radius: 50%;
+ 
+  bottom: 10px !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  font-size: 1.5rem;
+  color: white;
+}
+.gameSlider .content {
+  position: absolute;
+  bottom: 10px;
+  z-index: 1000;
+  width: 100%;
+}
+.gameSlider .content .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.gameSlider .content .buttons a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.gameSlider .content .buttons .orderBtn {
+  padding: 5px 7px;
+  background: var(--second);
+  border-radius: 10px;
+}
+.swiper-slide .video iframe {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85%;
+  height: 75%;
+  border-radius: 0 30px 0 30px !important;
+  border: 5px solid transparent;
+  background: var(--second);
+  z-index: 1100;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.5s;
+  transform-origin: top right;
+}
+.swiper-slide.swiper-slide-active .video.active iframe{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+section.home .section-title{
+  text-transform: uppercase;
+}
+.viewMore{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: 0.3;
+}
+.viewMore:hover{
+  color: var(--second);
+}
+
+
+
+
+
+
+
+
+

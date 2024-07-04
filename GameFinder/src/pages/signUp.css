@@ -1,0 +1,67 @@
+/* Sign-Up-Container */
+.Sign-Up-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top:12%;
+    padding-bottom: 20px;
+  }
+  strong {
+    color: white;
+  }
+  /* Sign-Up-Container-2 */
+  .Sign-Up-Container-2 {
+    background-color: rgb(7, 2, 59);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  /* Form */
+  .Sign-Up-Container-2 form {
+    margin-top: 20px;
+  }
+  
+  /* Labels */
+  .Sign-Up-Container-2 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Inputs */
+  .Sign-Up-Container-2 input[type='text'],
+  .Sign-Up-Container-2 input[type='email'],
+  .Sign-Up-Container-2 input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons */
+  .Sign-Up-Container-2 button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Sign-Up-Container-2 button[type='submit'] {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .Sign-Up-Container-2 button[type='submit']:hover {
+    background-color: #218838;
+  }
+  .Sign-Up-Container-2 p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  

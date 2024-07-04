@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:rgb(236, 11, 11);
+    --second: #5f0e49;
+    --bgCollor:rgb(7, 5, 27);
+
+}
+h1,h2,h3,h4, p {
+    color:white;
+}
+body {
+    position:relative;
+    background-color: var(--bgCollor);
+    width: 100%;
+    min-height: 100vh;
+   
+}

@@ -1,0 +1,40 @@
+.viewProfile{
+    position: relative;
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+    width: 80%;
+    justify-content: flex-start;
+    padding: 30px;
+    margin-left: 20%;
+    margin-top: 7%;
+    flex-direction: column;
+}
+.viewProfile h2 {
+    margin-bottom: 50px;
+}
+.viewProfile h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.viewProfile .viewUserName{
+    margin-top: 25px;
+  
+}
+.viewProfile .viewImage img{
+    min-width: 400px;
+}
+.viewUserName{
+    margin-top: 30px;
+    
+    font-size: 18px;
+}
+.viewEmail{
+    font-size: 18px;
+}

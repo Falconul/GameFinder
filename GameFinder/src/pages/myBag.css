@@ -1,0 +1,117 @@
+.myBag{
+    position: relative;
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+    width: 80%;
+    justify-content: flex-start;
+    padding: 30px;
+    margin-left: 20%;
+    margin-top: 7%;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.myBagCard{
+    margin-top: 50px;
+}
+.dataAll img{
+    display: flex;
+    border-radius: 20px;
+    max-width: 100%;
+}
+.dataAll .gameFeature1{
+    display: flex;
+    margin-top: 20px;
+    padding:5px 5px 5px 5px;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.dataAll .platform{
+    display: flex;
+    align-items: center;
+    height: auto;
+    
+    background: var(--second);
+    padding:5px 5px 5px 5px;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 5px;
+    margin-right:5px; 
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.dataAll .title{
+    font-weight: bold;
+  border-radius: 10px;
+  margin-left: 5px;
+  background: var(--second);
+  padding:5px 5px 5px 5px;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  color: white;
+}
+.dataAll .genre{
+    margin-left: 5px;
+    margin-right:5px; 
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dataAll .releaseYear{
+    margin-left: 5px;
+    margin-right:5px; 
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dataAll .gameFeature2{
+    display: flex;
+    margin-top: 20px;
+    padding:5px 5px 5px 5px;
+    border-radius: 10px;
+    width: auto;
+
+    margin-bottom: 15px;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.dataAll .gameFeature2{
+    display: flex;
+    margin-top: 20px;
+    padding:5px 5px 5px 5px;
+    border-radius: 10px;
+    width: auto;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.gridGame{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.dataAll{
+    border: 1px solid rgba(0, 102, 255, 0.1);
+    position: relative;
+    margin-right: 20px;
+    width: 100%;
+    min-height: 200px;
+    max-height: auto;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+    border-radius: 20px;
+    background:var(--bgColor);
+}
